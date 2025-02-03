@@ -28,6 +28,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
+    HomepageComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
